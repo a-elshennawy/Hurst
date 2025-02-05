@@ -1,0 +1,9 @@
+@font-face {
+    font-family: bold;
+    src: url(../Fonts/Kanit-Bold.ttf);
+}
+
+@font-face {
+    font-family: reg;
+    src: url(../Fonts/Kanit-Regular.ttf);
+}

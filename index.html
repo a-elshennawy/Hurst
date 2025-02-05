@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to Hurst, where you can get your furniture with perfect deals and best quality ever and best assurance policies">
+    <title>Hurst - Homepage</title>
+    <!-- libraries -->
+    <link rel="stylesheet" href="Css/Vendors/all.min.css">
+    <link rel="stylesheet" href="Css/Vendors/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="Css/Pages/main.css">
+    <!-- icon -->
+    <link rel="icon" href="Images/30.png">
+</head>
+
+<body>
+    <!-- Head Bar -->
+    <section class="headBar">
+        <div class="container-fluid">
+            <div class="innerBar row">
+                <!-- side-menu trigger button -->
+                <button class="btn triggerBtn col-1" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- middle logo -->
+                <div class="logo col-5">
+                    <img src="Images/30.png" alt="">
+                </div>
+
+                <!-- cart -->
+                <div class="cart col-1">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- side-menu -->
+    <div class="sideMenu offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="closeCanvas" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-sharp fa-solid fa-x"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navigation-list">
+                <li class="navigation-item"><a href="#" class="navigation-link">home</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">products</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">shortcodes</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">accessories</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">blog</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">pages</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">lookbok</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">about us</a></li>
+                <li class="navigation-item"><a href="#" class="navigation-link">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header Section -->
+    <section class="header">
+        <div class="container-fluid">
+            <div class="innerheader row">
+                <!-- social btns -->
+                <div class="socials col-1">
+                    <ul class="socilaList">
+                        <li class="solialItem">
+                            <a class="solialLink" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="solialItem">
+                            <a class="solialLink" href="#">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="solialItem">
+                            <a class="solialLink" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="solialItem">
+                            <a class="solialLink" href="#">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- small products -->
+                <div class="sideProducts row col-4">
+                    <div class="prodCard col-10">
+                        <div class="prodheader">
+                            <span>new</span>
+                            <h4>$ 50.00</h4>
+                        </div>
+                        <div class="prodimg">
+                            <img src="Images/1.jpg" alt="">
+                        </div>
+                        <div class="prodfooter row">
+                            <a class="col-6" href="#">product name</a>
+                            <button class="baseBtn col-4">
+                                buy now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="prodCard col-10">
+                        <div class="prodheader">
+                            <span>new</span>
+                            <h4>$ 36.00</h4>
+                        </div>
+                        <div class="prodimg">
+                            <img src="Images/15.jpg" alt="">
+                        </div>
+                        <div class="prodfooter row">
+                            <a class="col-6" href="#">product name</a>
+                            <button class="baseBtn col-4">
+                                buy now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider -->
+                <div class="slider col-6">
+                    <div class="carousel">
+                        <div class="slide active">
+                            <img src="Images/5.jpg">
+                            <div class="text">
+                                <h4>welcome to our furniture <br> <span>Gallery</span> <br> 2025</h4>
+                                <button class="baseBtn">
+                                    shop now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/10.jpg">
+                            <div class="text">
+                                <h4>welcome to our furniture <br> <span>Gallery</span> <br> 2025</h4>
+                                <button class="baseBtn">
+                                    shop now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/19.jpg">
+                            <div class="text">
+                                <h4>welcome to our furniture <br> <span>Gallery</span> <br> 2025</h4>
+                                <button class="baseBtn">
+                                    shop now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- basic btns -->
+                <div class="basicBtns col-1">
+                    <ul class="basicBtnsList">
+                        <!-- search -->
+                        <li class="basicItem">
+                            <a class="basiclink" title="search" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <!-- top seacrh bannel -->
+                            <div class="searchBannel offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                                aria-labelledby="offcanvasTopLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="closeSearch" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"><i class="fa-sharp fa-solid fa-x"></i></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <h4>search <i class="fa-solid fa-magnifying-glass"></i></h4>
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- login -->
+                        <li class="basicItem">
+                            <a class="basiclink" title="login" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                                <i class="fa-solid fa-lock-keyhole"></i>
+                            </a>
+                            <!-- bottom login bannel -->
+                            <div class="loginBannel offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                                aria-labelledby="offcanvasBottomLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="closeLogin" data-bs-dismiss="offcanvas"
+                                        aria-label="Close">
+                                        <i class="fa-sharp fa-solid fa-x"></i></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="innerlogin">
+                                        <h4>login <i class="fa-solid fa-user"></i></h4>
+                                        <form action="" class="loginForm">
+                                            <input type="text" name="username" id="username" placeholder="username">
+                                            <input type="password" name="password" id="password" placeholder="password">
+                                            <button type="submit" class="baseBtn">login</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- to register -->
+                        <li class="basicItem">
+                            <a class="basiclink" title="register" href="#">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <!-- to wishlist -->
+                        <li class="basicItem">
+                            <a class="basiclink" title="wishlist" href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured products -->
+    <section class="featured">
+        <div class="container-fluid">
+            <div class="innerFeatured row">
+                <div class="headerText col-12">
+                    <h3>featured products</h3>
+                </div>
+
+                <div class="featuredProdCard col-3">
+                    <div class="featuredImg">
+                        <span class="tag new">new</span>
+                        <div class="bar">
+                            <a href="#" class="barlink" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="search">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="compare">
+                                <i class="fa-solid fa-rotate"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="add to cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                        <img src="Images/6.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h5>dummy product name</h5>
+                        <h6>$ 40.00</h6>
+                        <span><i class="fa-sharp fa-solid fa-star"></i> 3.5</span>
+                    </div>
+                </div>
+
+                <div class="featuredProdCard col-3">
+                    <div class="featuredImg">
+                        <span class="tag sale">sale</span>
+                        <div class="bar">
+                            <a href="#" class="barlink" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="search">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="compare">
+                                <i class="fa-solid fa-rotate"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="add to cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                        <img src="Images/22.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h5>dummy product name</h5>
+                        <h6>$ 55.00</h6>
+                        <span><i class="fa-sharp fa-solid fa-star"></i> 4</span>
+                    </div>
+                </div>
+
+                <div class="featuredProdCard col-3">
+                    <div class="featuredImg">
+                        <span class="tag new">new</span>
+                        <div class="bar">
+                            <a href="#" class="barlink" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="search">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="compare">
+                                <i class="fa-solid fa-rotate"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="add to cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                        <img src="Images/6.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h5>dummy product name</h5>
+                        <h6>$ 34.00</h6>
+                        <span><i class="fa-sharp fa-solid fa-star"></i> 3</span>
+                    </div>
+                </div>
+
+                <div class="featuredProdCard col-3">
+                    <div class="featuredImg">
+                        <span class="tag sale">sale</span>
+                        <div class="bar">
+                            <a href="#" class="barlink" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="search">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="compare">
+                                <i class="fa-solid fa-rotate"></i>
+                            </a>
+                            |
+                            <a href="#" class="barlink" title="add to cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                        <img src="Images/17.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h5>dummy product name</h5>
+                        <h6>$ 60.00</h6>
+                        <span><i class="fa-sharp fa-solid fa-star"></i> 4.5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- discount -->
+    <section class="discounted">
+        <div class="container">
+            <div class="discountedSlider">
+                <div id="carouselExampleCaptions" class="carousel slide discountedSliderinner">
+                    <div class="carousel-indicators sliderIndicators">
+
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1">
+                        </button>
+
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/8.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Discount 50%</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam amet atque
+                                    ut, alias aspernatur.</p>
+                                <button class="baseBtn sliderInnerBtn">
+                                    <a href="#">
+                                        buy now
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/14.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Discount 50%</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam amet atque
+                                    ut, alias aspernatur.</p>
+                                <button class="baseBtn sliderInnerBtn">
+                                    <a href="#">
+                                        buy now
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/8.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Discount 50%</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam amet atque
+                                    ut, alias aspernatur.</p>
+                                <button class="baseBtn sliderInnerBtn">
+                                    <a href="#">
+                                        buy now
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/14.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Discount 50%</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam amet atque
+                                    ut, alias aspernatur.</p>
+                                <button class="baseBtn sliderInnerBtn">
+                                    <a href="#">
+                                        buy now
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="navigateArrow carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <i class="fa-sharp fa-solid fa-triangle fa-rotate-270"></i>
+                    </button>
+                    <button class="navigateArrow carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <i class="fa-sharp fa-solid fa-triangle fa-rotate-90"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section class="blog">
+        <div class="container-fluid">
+            <div class="blogInner row">
+                <div class="blogheader col-12">
+                    <h3>from the blog</h3>
+                </div>
+                <div class="post row col-5">
+                    <div class="text col-5">
+                        <a href="#" class="postTitle">
+                            <h5>furniture drawing 2021</h5>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-heart"></i>233</a>
+                        |
+                        <a href="#"><i class="fa-solid fa-comment-quote"></i>300</a>
+                        |
+                        <a href="#"><i class="fa-regular fa-share-nodes"></i>100</a>
+                        <h6>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered If you are going to use a passage Lorem Ipsum, you alteration in some form.</h6>
+
+                        <a href="#">
+                            <p>read more...</p>
+                        </a>
+                    </div>
+                    <div class="img col-5">
+                        <img src="Images/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="post row col-5">
+                    <div class="text col-5">
+                        <a href="#" class="postTitle">
+                            <h5>furniture drawing 2021</h5>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-heart"></i>201</a>
+                        |
+                        <a href="#"><i class="fa-solid fa-comment-quote"></i>109</a>
+                        |
+                        <a href="#"><i class="fa-regular fa-share-nodes"></i>200</a>
+                        <h6>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered If you are going to use a passage Lorem Ipsum, you alteration in some form.</h6>
+
+                        <a href="#">
+                            <p>read more...</p>
+                        </a>
+                    </div>
+                    <div class="img col-5">
+                        <img src="Images/11.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe form -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="subInner row">
+                <input class="col-8" type="text" name="" id="" placeholder="enter your email address">
+                <button type="submit" class="subBtn baseBtn col-1">
+                    subscribe
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footerInner row">
+                <div class="sec col-3">
+                    <h4>contact us</h4>
+                    <ul class="contactList">
+                        <li class="contactItem">
+                            <strong>address:</strong>
+                            28 Green Tower, Street Name,
+                            New York City, USA
+                        </li>
+                        <li class="contactItem">
+                            <strong>cell-phone:</strong>
+                            012345-123456789
+                        </li>
+                        <li class="contactItem">
+                            <strong>email:</strong>
+                            your-email@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="sec col-3">
+                    <h4>accounts</h4>
+                    <ul class="accountList">
+                        <li class="accountItem">
+                            <a href="#" class="accountLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my account
+                            </a>
+                        </li>
+                        <li class="accountItem">
+
+                            <a href="#" class="accountLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my wishlist
+                            </a>
+                        </li>
+                        <li class="accountItem">
+
+                            <a href="#" class="accountLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my cart
+                            </a>
+                        </li>
+                        <li class="accountItem">
+
+                            <a href="#" class="accountLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                sign in
+                            </a>
+                        </li>
+                        <li class="accountItem">
+
+                            <a href="#" class="accountLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                checkout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sec col-3">
+                    <h4>shipping</h4>
+                    <ul class="shoppingList">
+                        <li class="shoppingItem">
+                            <a href="#" class="shoppingLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my account
+                            </a>
+                        </li>
+                        <li class="shoppingItem">
+
+                            <a href="#" class="shoppingLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my wishlist
+                            </a>
+                        </li>
+                        <li class="shoppingItem">
+
+                            <a href="#" class="shoppingLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                my cart
+                            </a>
+                        </li>
+                        <li class="shoppingItem">
+
+                            <a href="#" class="shoppingLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                sign in
+                            </a>
+                        </li>
+                        <li class="shoppingItem">
+
+                            <a href="#" class="shoppingLink">
+                                <i class="fa-regular fa-circle-dot"></i>
+                                checkout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sec col-3">
+                    <h4>your choice products</h4>
+                    <div class="prodsChoice row">
+                        <div class="innerpodChoice col-5">
+                            <div class="overlay">
+                                <h6>
+                                    furniture product name
+                                </h6>
+                                <h6>$ 55.00</h6>
+                            </div>
+                            <img src="Images/27.jpg" alt="">
+                        </div>
+                        <div class="innerpodChoice col-5">
+                            <div class="overlay">
+                                <h6>
+                                    furniture product name
+                                </h6>
+                                <h6>$ 30.00</h6>
+                            </div>
+                            <img src="Images/28.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="baseBtn">
+                        shop now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ender -->
+    <section class="ender">
+        <div class="container">
+            <div class="enderInner row">
+                <p class="disclaimer col-5">
+                    <a href="#">© CodeCarnival</a> 2022. All Rights Reserved.
+                </p>
+                <div class="advertisers col-5">
+                    <a href="#">
+                        <img src="Images/9.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Images/16.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Images/20.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Images/23.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- upBtn -->
+    <button class="upBtn">
+        <i class="fa-sharp fa-regular fa-triangle"></i>
+    </button>
+    <!-- js -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>

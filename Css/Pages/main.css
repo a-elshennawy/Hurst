@@ -57,6 +57,22 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+.fromLeft {
+  animation: fromLeft linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+.formRight {
+  animation: formRight linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+.fadeIn {
+  animation: fadeIn linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+
 /* headBar */
 .headBar {
   background-color: #fff;

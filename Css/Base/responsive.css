@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .headBar {
+    .innerBar {
+      .logo {
+        width: 20%;
+      }
+    }
+  }
+
+  .header {
+    .innerheader {
+      .socials {
+        .socilaList {
+          text-align: center;
+          .solialItem {
+            display: inline;
+            .solialLink {
+              margin: 0px 20px;
+            }
+          }
+        }
+      }
+
+      .basicBtns {
+        .basicBtnsList {
+          text-align: center;
+          margin: 20px 0px;
+          .basicItem {
+            display: inline;
+            .basiclink {
+              margin: 0px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ender {
+    .enderInner {
+      justify-content: center !important;
+      text-align: center !important;
+    }
+  }
+}

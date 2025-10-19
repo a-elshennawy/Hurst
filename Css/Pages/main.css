@@ -57,6 +57,7 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+/* animated classes */
 .fromLeft {
   animation: fromLeft linear forwards;
   animation-timeline: view();
@@ -263,7 +264,6 @@ img {
 
         &:hover {
           box-shadow: 0px 10px 30px 0px #7c7a7a;
-          border: 1px solid #ffffff;
           border-radius: 5px;
         }
       }
@@ -515,7 +515,8 @@ img {
           opacity: 0;
           bottom: -50px;
           left: 50%;
-          transform: translate(-50%);
+          transform: translateX(-50%);
+          width: 100%;
           background-color: #fff;
           padding: 10px;
           transition: all 0.3s ease-in-out;

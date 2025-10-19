@@ -77,7 +77,7 @@ img {
 /* headBar */
 .headBar {
   background-color: #fff;
-  position: sticky;
+  position: sticky !important;
   top: 0;
   left: 0;
   right: 0;
@@ -516,7 +516,7 @@ img {
           bottom: -50px;
           left: 50%;
           transform: translateX(-50%);
-          width: 100%;
+          width: max-content;
           background-color: #fff;
           padding: 10px;
           transition: all 0.3s ease-in-out;
